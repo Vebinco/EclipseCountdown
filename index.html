@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Countdown Timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="particle-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div id="timer-container" class="timer-container">
+        <h1 class="main-title">COUNTDOWN TO LAUNCH</h1>
+        <div id="timer" class="timer">
+            <div class="time-block">
+                <span id="days" class="digit">00</span>
+                <span class="label">Days</span>
+            </div>
+            <div class="time-block">
+                <span id="hours" class="digit">00</span>
+                <span class="label">Hours</span>
+            </div>
+            <div class="time-block">
+                <span id="minutes" class="digit">00</span>
+                <span class="label">Minutes</span>
+            </div>
+            <div class="time-block">
+                <span id="seconds" class="digit">00</span>
+                <span class="label">Seconds</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="celebration" class="celebration hidden">
+        <h2>The Time Has Come!</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
